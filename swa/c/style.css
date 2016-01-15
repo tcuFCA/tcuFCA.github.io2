@@ -19,8 +19,7 @@ html,
 body,
 div,
 span,
-applet,
-object,
+applet,411
 iframe,
 h1,
 h2,
@@ -1121,9 +1120,9 @@ body.boxed .body {
 }
 
 .site-header .menu-toggle {
-  font-size: 18px;
-  margin: 40px 5px 0 0;
-  float: right;
+    font-size: 28px;
+    margin: 57px 5px 0 0;
+    float: right;
 }
 
 .site-header .menu-toggle:focus {
@@ -4120,8 +4119,8 @@ hr.purple {
     background: url(../i/tcu/tcu-logo-white1.svg);
     background-repeat: no-repeat;
     width: 205px;
-    height: 40px;
-    margin: 27px 0 -30px;
+/*    height: 40px;
+*/    margin: 40px 0 -30px;
   }
   .fcaLogo {
     display: none;
@@ -4132,9 +4131,8 @@ hr.purple {
   .navLogo {
     background: url(../i/tcu/tcu-logo-white1.svg);
     background-repeat: no-repeat;
-    width: 125px;
-    height: 35px;
-    margin: 30px 0 -30px;
+    height: 34px;
+    margin: 51px 0 -30px;
   }
 }
 
@@ -4142,9 +4140,8 @@ hr.purple {
   .navLogo {
     background: url(../i/tcu/tcu-logo-white1.svg);
     background-repeat: no-repeat;
-    width: 100px;
-    height: 25px;
-    margin: 33px 0 0 -3px;
+    height: 29px;
+    margin: 54px 0 0 -3px;
   }
 }
 
