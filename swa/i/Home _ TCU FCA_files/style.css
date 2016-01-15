@@ -493,7 +493,8 @@ hr {
   width: 100%;
   height: 1px;
   border: 0;
-  background: rgba(77, 26, 121, 1);
+   background: rgba(77, 26, 121, 1);
+
 }
 
 hr.fw {
@@ -936,44 +937,44 @@ a > img.fill {
 .media-box .zoom,
 .media-box .expand {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #ffffff!important;
-  font-size: 1.5em;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  margin: 0;
-  background-color: rgba(77, 26, 121, 0.5);
-  opacity: 0;
-  -webkit-transition: all 0.3s ease 0.2s;
-  -moz-transition: all 0.3s ease 0.2s;
-  -ms-transition: all 0.3s ease 0.2s;
-  -o-transition: all 0.3s ease 0.2s;
-  transition: all 0.3s ease 0.1s;
-  -webkit-transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -moz-transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -o-transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -ms-transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff!important;
+    font-size: 1.5em;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background-color: rgba(77, 26, 121, 0.5);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0.2s;
+    -moz-transition: all 0.3s ease 0.2s;
+    -ms-transition: all 0.3s ease 0.2s;
+    -o-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.1s;
+    -webkit-transition: all .3s cubic-bezier(0.300,0.100,0.580,1.000);
+    -moz-transition: all .3s cubic-bezier(0.300,0.100,0.580,1.000);
+    -o-transition: all .3s cubic-bezier(0.300,0.100,0.580,1.000);
+    -ms-transition: all .3s cubic-bezier(0.300,0.100,0.580,1.000);
+    transition: all .3s cubic-bezier(0.300,0.100,0.580,1.000);
 }
 
 .media-box .zoom,
 .media-box .expand:after {
-  content: " ";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(77, 26, 121, 0.5);
-  -webkit-transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -moz-transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -o-transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -ms-transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(77, 26, 121, 0.5);
+    -webkit-transition: all .27s cubic-bezier(0.300,0.100,0.580,1.000);
+    -moz-transition: all .27s cubic-bezier(0.300,0.100,0.580,1.000);
+    -o-transition: all .27s cubic-bezier(0.300,0.100,0.580,1.000);
+    -ms-transition: all .27s cubic-bezier(0.300,0.100,0.580,1.000);
+    transition: all .27s cubic-bezier(0.300,0.100,0.580,1.000);
 }
 
 .img-thumbnail img:hover,
@@ -1061,7 +1062,7 @@ body.boxed .body {
 
 .site-header .topbar {
   background-color: #000;
-  height: 125px;
+  height: 80px;
   position: relative;
   z-index: 3;
   -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, .1);
@@ -1975,7 +1976,6 @@ html[xmlns] .slides {
 
 .featured-block {
   position: relative;
-  margin-bottom: 30px;
 }
 
 .featured-block strong {
@@ -2040,16 +2040,13 @@ html[xmlns] .slides {
   margin-right: 20px;
 }
 
+
+
 .listing .item {
   width: 100%;
   padding: 10px 0;
   float: left;
   border-bottom: 1px solid #4d1979;
-  margin-bottom: 10px;
-}
-
-.listing.post-listing {
-  padding-top: 170px;
 }
 
 .event-date {
@@ -2066,16 +2063,6 @@ html[xmlns] .slides {
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 0;
-  display: block;
-  margin-top: 2px;
-}
-
-.event-date span.every {
-  font-size: 12px;
-  font-weight: 700;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: normal;
   margin-bottom: 0;
   display: block;
   margin-top: 2px;
@@ -2191,6 +2178,7 @@ h4 > a.whitePurple {
 
 .item.featured-sermon {
   border-bottom: 0;
+  margin-top: 20px;
   padding: 30px;
   background: #000;
   position: relative;
@@ -2464,7 +2452,6 @@ h1.post-title {
 .post-content .featured-image {
   margin-bottom: 20px;
 }
-
 .featured-image {
   margin: 30px 0;
 }
@@ -3059,14 +3046,14 @@ h1.post-title {
 }
 
 .widget .sidebar-widget-title h3 {
-  border-bottom: 1px solid #4d1979;
-  /* margin-bottom: 10px; */
-  margin: 5px 0 10px;
+    border-bottom: 1px solid #4d1979;
+    /* margin-bottom: 10px; */
+    margin: 5px 0 10px;
 }
 
 .widget .sidebar-widget-title {
-  margin: 35px 0 0 0;
-  padding: 0 0 10px 0;
+    margin: 35px 0 0 0;
+    padding: 0 0 10px 0;
 }
 
 .widget h4.footer-widget-title {
@@ -3893,7 +3880,7 @@ span.progress-bar-tooltip:after {
     margin-right: 0;
   }
   .featured-block {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .gallery-filter ul li span {
     display: none;
@@ -4104,9 +4091,9 @@ hr.purple {
 .navLogo {
   background-image: url(../i/tcu/tcu-logo-white1.svg);
   background-repeat: no-repeat;
-  min-width: 700px;
+  min-width: 590px;
   height: 55px;
-  margin: 40px 0 -10px;
+  margin: 22px 0 -10px;
 }
 
 .fcaLogo {
@@ -4224,7 +4211,7 @@ h3.donateName {
 .user-photo {
   position: relative;
   margin: 0 auto 18px;
-  background-image: url(../i/tcu/chauncey-staffthumb.jpg);
+  background-image: url(../i/tcu/chauncey-franks.jpg);
   background-size: 120%;
   background-position: bottom right;
   background-color: white;
@@ -4629,29 +4616,15 @@ img {
 
 h4.contactTitle {
   font-size: 16px!important;
-  color: #1d1d1d;
-  font-weight: 400;
-  line-height: 35px;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  text-transform: none;
+    color: #1d1d1d;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-transform: none;
 }
-
-.highlightAthlete {
-  padding-top: 10px;
-  margin: 10px 0;
-}
-
-.athleteStory {
-  color: #000;
-  font-size: 16px;
-  line-height: 33px;
-  margin: 0 0 15px 0;
-  text-align: justify;
-}
-
