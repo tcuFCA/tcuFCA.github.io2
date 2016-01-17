@@ -1,11 +1,20 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 /* Stylesheets and Google fonts import */
 
 @import url("font-awesome.css");
 @import url("font-awesome.css");
 @import url("animations.css");
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("http://fonts.googleapis.com/css?family=Volkhov:400italic");
 
 /*-------------------------------------------------------------------------------------------*/
 
@@ -168,7 +177,19 @@ iframe {
 
 html,
 body {
+  width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif, eurostile;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 html,
@@ -814,14 +835,12 @@ img.fill {
   display: flex;
   overflow: hidden flex-shrink: 0;
   min-width: 100%;
-  min-height: 100%;
 }
 
 a > img.fill {
   display: flex;
   overflow: hidden flex-shrink: 0;
   min-width: 100%;
-  min-height: 100%;
 }
 
 .social-icons a {
@@ -4113,7 +4132,7 @@ hr.purple {
 }
 
 .navLogo {
-  background-image: url(../i/tcu/tcu-logo-white1.svg);
+  background-image: url("../i/tcu/tcu-logo-white1.svg");
   background-repeat: no-repeat;
   min-width: 700px;
   height: 55px;
@@ -4128,7 +4147,7 @@ hr.purple {
 
 @media (max-width: 1008px) {
   .navLogo {
-    background: url(../i/tcu/tcu-logo-white1.svg);
+    background: url("../i/tcu/tcu-logo-white1.svg");
     background-repeat: no-repeat;
     width: 205px;
     height: 40px;
@@ -4141,7 +4160,7 @@ hr.purple {
 
 @media (max-width: 520px) {
   .navLogo {
-    background: url(../i/tcu/tcu-logo-white1.svg);
+    background: url("../i/tcu/tcu-logo-white1.svg");
     background-repeat: no-repeat;
     width: 125px;
     height: 35px;
@@ -4151,7 +4170,7 @@ hr.purple {
 
 @media (max-width: 450px) {
   .navLogo {
-    background: url(../i/tcu/tcu-logo-white1.svg);
+    background: url("../i/tcu/tcu-logo-white1.svg");
     background-repeat: no-repeat;
     width: 100px;
     height: 28px;
@@ -4235,7 +4254,7 @@ h3.donateName {
 .user-photo {
   position: relative;
   margin: 0 auto 18px;
-  background-image: url(../i/tcu/chauncey-staffthumb.jpg);
+  background-image: url("../i/tcu/chauncey-staffthumb.jpg");
   background-size: 120%;
   background-position: bottom right;
   background-color: white;
@@ -4248,26 +4267,12 @@ h3.donateName {
 .user-photo-two {
   position: relative;
   margin: 0 auto 18px;
-  background-image: url(../i/tcu/coleman-maxwell.jpg);
+  background-image: url("../i/tcu/coleman-maxwell.jpg");
   background-size: 100%;
   background-position: bottom right;
   background-color: white;
   width: 140px;
   height: 140px;
-  border-radius: 100%;
-  box-shadow: #4d1979 0 0 0 1px
-}
-
-.user-photo-three {
-  position: relative;
-  margin: 0 auto 18px;
-  background-image: url(../i/tcu/makena-schroder.jpg);
-  background-size: 100%;
-  background-position: bottom right;
-  background-color: white;
-  width: 140px;
-  height: 140px;
-  border: 2px solid #ffffff;
   border-radius: 100%;
   box-shadow: #4d1979 0 0 0 1px
 }
