@@ -213,6 +213,8 @@ a img {
 a > img {
   width: 360px;
   vertical-align: middle;
+  border: 3px solid #4d1a79;
+  border-radius: 7px;
 }
 
 .gray-bg {
@@ -799,13 +801,15 @@ label {
 }
 
 .img-thumbnail {
-  border: 1px solid #4d1a79;
+  border: 3px solid #4d1a79;
   width: 100%;
   padding: 0!important;
+  border-radius: 7px;
 }
 
 img.fill {
-  border: 1px solid #4d1a79;
+  border: 3px solid #4d1a79;
+  border-radius: 7px;
   padding: 0!important;
   display: flex;
   overflow: hidden flex-shrink: 0;
@@ -1122,7 +1126,7 @@ body.boxed .body {
 
 .site-header .menu-toggle {
   font-size: 18px;
-  margin: 40px 5px 0 0;
+  margin: 57px 5px 0 0;
   float: right;
 }
 
@@ -2462,7 +2466,14 @@ h1.post-title {
 }
 
 .post-content .featured-image {
+  border: 3px solid #4d1a79;
+  border-radius: 7px;
   margin-bottom: 20px;
+}
+
+.img-border {
+  border: 3px solid #4d1a79;
+  border-radius: 7px;
 }
 
 .featured-image {
@@ -4121,7 +4132,7 @@ hr.purple {
     background-repeat: no-repeat;
     width: 205px;
     height: 40px;
-    margin: 27px 0 -30px;
+    margin: 47px 0 -30px;
   }
   .fcaLogo {
     display: none;
@@ -4134,7 +4145,7 @@ hr.purple {
     background-repeat: no-repeat;
     width: 125px;
     height: 35px;
-    margin: 30px 0 -30px;
+    margin: 48px 0 -30px;
   }
 }
 
@@ -4143,8 +4154,8 @@ hr.purple {
     background: url(../i/tcu/tcu-logo-white1.svg);
     background-repeat: no-repeat;
     width: 100px;
-    height: 25px;
-    margin: 33px 0 0 -3px;
+    height: 28px;
+    margin: 52px 0 0 -3px;
   }
 }
 
@@ -4569,6 +4580,22 @@ p > video {
   letter-spacing: 1px: 245;
 }
 
+ul.donateList > li {
+  margin: 0 50px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 19px;
+  line-height: 25px;
+  color: #1d1d1d;
+  margin-bottom: 12px;
+  font-weight: 300;
+  letter-spacing: 1px: 245;
+  list-style-type: circle;
+}
+
 .aboutFCA:after {
   margin-bottom: 20px;
 }
@@ -4621,6 +4648,8 @@ img {
 .staffPics {
   width: 100%;
   margin: 20px 0;
+  border: 3px solid #4d1a79;
+  border-radius: 7px;
 }
 
 .paddingFifty {
